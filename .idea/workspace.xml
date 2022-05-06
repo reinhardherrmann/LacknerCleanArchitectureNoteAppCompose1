@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/usecase/DeleteNoteUseCase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="Step 04 DeleteNoteUseCase erstellt">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/usecase/NoteUseCases.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,17 +22,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Sealed Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Data Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Step_03_GetNotesUseCase" />
+        <entry key="$PROJECT_DIR$" value="Step_04_DeleteNoteUseCase_erstellt" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651852474184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Step 04 DeleteNoteUseCase erstellt">
+      <created>1651852984730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651852984730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +175,7 @@
     <MESSAGE value="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase" />
     <MESSAGE value="Step 02 Create Repository&#10;        NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik &#10;        gefüllt" />
     <MESSAGE value="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt" />
+    <MESSAGE value="Step 04 DeleteNoteUseCase erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 04 DeleteNoteUseCase erstellt" />
   </component>
 </project>
