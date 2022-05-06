@@ -29,6 +29,9 @@
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
+Step 03 GetNotesUseCase erstellt
+        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType
+        erstellt
 -----------------------------------------------------------------------------------------
 Step 02 Create Repository
         NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik
