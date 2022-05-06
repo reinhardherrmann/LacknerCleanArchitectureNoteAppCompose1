@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.plcoding.cleanarchitecturenoteapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:5:5-23:19
+12        android:allowBackup="true"
+12-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] C:\Users\rherrmann\.gradle\caches\transforms-3\76fb219c4b5d51ac3bac10a0b0fccb14\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.CleanArchitectureNoteApp" >
+20-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:11:9-62
+21        <activity
+21-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:12:9-22:20
+22            android:name="com.plcoding.cleanarchitecturenoteapp.MainActivity"
+22-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:13:13-41
+23            android:exported="true"
+23-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:14:13-36
+24            android:label="@string/app_name"
+24-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:15:13-45
+25            android:theme="@style/Theme.CleanArchitectureNoteApp" >
+25-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:16:13-66
+26            <intent-filter>
+26-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:18:17-69
+27-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:20:17-77
+29-->E:\Android\AndroidKurse\PhilippLackner\Projekte\Clean Architecture Note App MVVM Compose\CleanArchitectureNoteApp-master\CleanArchitectureNoteApp-master\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\1cb0e4d5bbb2942ae2a390ac8258f680\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:25:9-27:39
+33            android:name="androidx.compose.ui.tooling.PreviewActivity"
+33-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\1cb0e4d5bbb2942ae2a390ac8258f680\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:26:13-71
+34            android:exported="true" />
+34-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\1cb0e4d5bbb2942ae2a390ac8258f680\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:27:13-36
+35
+36        <service
+36-->[androidx.room:room-runtime:2.3.0] C:\Users\rherrmann\.gradle\caches\transforms-3\ad40a90acb05c842db6b7c7f4e0fbe10\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+37            android:name="androidx.room.MultiInstanceInvalidationService"
+37-->[androidx.room:room-runtime:2.3.0] C:\Users\rherrmann\.gradle\caches\transforms-3\ad40a90acb05c842db6b7c7f4e0fbe10\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+38            android:directBootAware="true"
+38-->[androidx.room:room-runtime:2.3.0] C:\Users\rherrmann\.gradle\caches\transforms-3\ad40a90acb05c842db6b7c7f4e0fbe10\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+39            android:exported="false" />
+39-->[androidx.room:room-runtime:2.3.0] C:\Users\rherrmann\.gradle\caches\transforms-3\ad40a90acb05c842db6b7c7f4e0fbe10\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+40
+41        <provider
+41-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:27:13-67
+43            android:authorities="com.plcoding.cleanarchitecturenoteapp.androidx-startup"
+43-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+46-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:32:17-85
+47                android:value="androidx.startup" />
+47-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:33:17-49
+48        </provider>
+49
+50        <receiver
+50-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:36:9-45:20
+51            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+51-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:37:13-76
+52            android:directBootAware="false"
+52-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:38:13-44
+53            android:enabled="true"
+53-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:39:13-35
+54            android:exported="true"
+54-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:40:13-36
+55            android:permission="android.permission.DUMP" >
+55-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:41:13-57
+56            <intent-filter>
+56-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:42:13-44:29
+57                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+57-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:43:17-91
+57-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\rherrmann\.gradle\caches\transforms-3\021f79090475d333849357aa2b7e9e20\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:43:25-88
+58            </intent-filter>
+59        </receiver>
+60    </application>
+61
+62</manifest>
