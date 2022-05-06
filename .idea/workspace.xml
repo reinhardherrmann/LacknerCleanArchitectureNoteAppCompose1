@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="Step 02 Create Repository&#10;        NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik &#10;        gefüllt">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/usecase/GetNotesUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/util/NoteOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/util/OrderType.kt" afterDir="false" />
+    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/usecase/DeleteNoteUseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" afterDir="false" />
     </list>
@@ -27,15 +25,15 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Sealed Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Step_02_Create_Repository" />
+        <entry key="$PROJECT_DIR$" value="Step_03_GetNotesUseCase" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651850523206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt">
+      <created>1651852474184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651852474184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +168,7 @@
     </ignored-roots>
     <MESSAGE value="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase" />
     <MESSAGE value="Step 02 Create Repository&#10;        NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik &#10;        gefüllt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 02 Create Repository&#10;        NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik &#10;        gefüllt" />
+    <MESSAGE value="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 03 GetNotesUseCase erstellt&#10;        Zur Unterstützung im package domain.util sealed classes NoteOrder und OrderType &#10;        erstellt" />
   </component>
 </project>
