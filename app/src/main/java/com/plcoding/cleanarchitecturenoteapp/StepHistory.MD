@@ -30,6 +30,9 @@
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
+Step 02 Create Repository
+        NoteRepository als interface erstellt und dann in NoteRepositoryImpl mit Logik
+        gefüllt
 -----------------------------------------------------------------------------------------
 Step 01 Setting up Project Stucture and Database
         App structured by features tasks... and other things

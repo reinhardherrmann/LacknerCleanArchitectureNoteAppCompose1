@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/data/data_source/NoteDao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/data/data_source/NoteDatabase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/model/Note.kt" afterDir="false" />
+    <list default="true" id="ce425bb6-a68c-4760-91d5-03198a516321" name="Default Changelist" comment="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/data/repository/NoteRepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/domain/repository/NoteRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/presentation/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/StepHistory.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/data/data_source/NoteDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/plcoding/cleanarchitecturenoteapp/feature_note/data/data_source/NoteDao.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Step_01_Setting_up_Project_structure" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,6 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1651835270099</updated>
     </task>
+    <task id="LOCAL-00001" summary="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase">
+      <created>1651849599614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651849599614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,5 +153,7 @@
     <ignored-roots>
       <path value="Y:/LacknerCleanArchitectureNoteAppCompose" />
     </ignored-roots>
+    <MESSAGE value="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 01 Setting up Project Stucture and Database&#10;        App structured by features tasks... and other things&#10;        implemented Entity Note, NoteDao and NoteDatabase" />
   </component>
 </project>
