@@ -24,6 +24,12 @@
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------
+Step 08 NotesScreen ertellen
+        Composable for RadioButtons erstellt und gestyled
+        Composable for Order section erstellt
+        NoteOrder angepaßt um orderType ändern zu können
+        NoteItem erstellt
+        NotesScreen erstellt
 -----------------------------------------------------------------------------------------
 Step 07 Create NoteViewModel
         InsertNoteUseCase angepaßt, NotesEvent, NotesState und  
