@@ -3,6 +3,7 @@ package com.plcoding.cleanarchitecturenoteapp.feature_note.domain.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.plcoding.cleanarchitecturenoteapp.ui.theme.*
+import java.lang.Exception
 
 @Entity(tableName = "tbl_notes")
 data class Note(
@@ -24,3 +25,6 @@ data class Note(
         )
     }
 }
+
+// class to send message, if note can not be stored
+class InvalidNoteException(message: String): Exception(message)

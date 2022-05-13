@@ -7,6 +7,7 @@ import com.plcoding.cleanarchitecturenoteapp.feature_note.data.repository.NoteRe
 import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.repository.NoteRepository
 import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.usecase.DeleteNoteUseCase
 import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.usecase.GetNotesUseCase
+import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.usecase.InsertNoteUseCase
 import com.plcoding.cleanarchitecturenoteapp.feature_note.domain.usecase.NoteUseCases
 import dagger.Module
 import dagger.Provides
@@ -39,7 +40,8 @@ object AppModule {
     fun provideUseCases(repository: NoteRepository): NoteUseCases{
         return NoteUseCases(
             getNotes = GetNotesUseCase(repository),
-            deleteNote = DeleteNoteUseCase(repository)
+            deleteNote = DeleteNoteUseCase(repository),
+            insertNote = InsertNoteUseCase(repository)
         )
     }
 
